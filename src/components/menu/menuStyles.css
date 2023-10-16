@@ -1,9 +1,29 @@
 .menu {
-    background-color: grey;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.starters {
+    padding: 10px;
+}
+
+.starters :first-child {
+    text-align: center;
 }
 
 .mains {
     padding: 10px;
-    background-color: red;
+}
+
+.mains :first-child {
+    text-align: center;
+}
+
+.dessert {
+    padding: 10px;
+}
+
+.dessert :first-child {
+    text-align: center;
 }
